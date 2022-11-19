@@ -435,7 +435,7 @@ end
                 is_first_section = false
                 selected_section = SectionButton
 
-                SectionButton.TextColor3 = Color3.fromRGB(84, 101, 255) 
+                SectionButton.TextColor3 = Color3.fromRGB(255, 101, 84) 
     
                 SectionDecoration.Visible = true
                 SectionFrame.Visible = true
@@ -1264,7 +1264,7 @@ end
 
                             local Decoration = library:create("Frame", {
                                 Name = "Decoration",
-                                BackgroundColor3 = Color3.fromRGB(84, 101, 255),
+                                BackgroundColor3 = Color3.fromRGB(255, 101, 84),
                                 BorderSizePixel = 0,
                                 Size = UDim2.new(0, 1, 1, 0),
                                 Visible = false,
@@ -1513,7 +1513,7 @@ end
 
                             local Decoration = library:create("Frame", {
                                 Name = "Decoration",
-                                BackgroundColor3 = Color3.fromRGB(84, 101, 255),
+                                BackgroundColor3 = Color3.fromRGB(255, 101, 84),
                                 BorderSizePixel = 0,
                                 Size = UDim2.new(0, 1, 1, 0),
                                 Visible = false,
@@ -1585,7 +1585,7 @@ end
                             library:tween(Button, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {TextColor3 = Color3.fromRGB(150, 150, 150)})
                         end)
                         Button.MouseButton1Down:Connect(function()
-                            Button.BorderColor3 = Color3.fromRGB(84, 101, 255)
+                            Button.BorderColor3 = Color3.fromRGB(255, 101, 84)
                             library:tween(Button, TweenInfo.new(0.6, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BorderColor3 = Color3.fromRGB(0, 0, 0)})
                             do_callback()
                         end)
@@ -1645,7 +1645,7 @@ end
                         end)
                         uis.TextBoxFocused:connect(function()
                             if uis:GetFocusedTextBox() == TextBox then
-                                library:tween(TextBox, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BorderColor3 = Color3.fromRGB(84, 101, 255)})
+                                library:tween(TextBox, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BorderColor3 = Color3.fromRGB(255, 101, 84)})
                             end
                         end)
                         uis.TextBoxFocusReleased:connect(function()
@@ -1702,7 +1702,7 @@ end
                             ScrollBarThickness = 2,
                             TopImage = "rbxasset://textures/ui/Scroll/scroll-middle.png",
                             AnchorPoint = Vector2.new(0.5, 0),
-                            ScrollBarImageColor3 = Color3.fromRGB(84, 101, 255),
+                            ScrollBarImageColor3 = Color3.fromRGB(255, 101, 84),
                         }, Scroll)
                         ScrollFrame.MouseEnter:Connect(function()
                             library:tween(ScrollFrame, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BorderColor3 = Color3.fromRGB(50, 50, 50)})
@@ -1748,7 +1748,7 @@ end
                             local Decoration = library:create("Frame", {
                                 Name = "Decoration",
                                 Parent = Button,
-                                BackgroundColor3 = Color3.fromRGB(84, 101, 255),
+                                BackgroundColor3 = Color3.fromRGB(255, 101, 84),
                                 BorderSizePixel = 0,
                                 Size = UDim2.new(0, 1, 1, 0),
                                 Visible = false,
@@ -1826,7 +1826,7 @@ end
                             local Decoration = library:create("Frame", {
                                 Name = "Decoration",
                                 Parent = Button,
-                                BackgroundColor3 = Color3.fromRGB(84, 101, 255),
+                                BackgroundColor3 = Color3.fromRGB(255, 101, 84),
                                 BorderSizePixel = 0,
                                 Size = UDim2.new(0, 1, 1, 0),
                                 Visible = false,
