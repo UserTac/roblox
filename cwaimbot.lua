@@ -816,7 +816,7 @@ CombatKillauraSection:Toggle({
 
 
 CombatSilentaimSection:Toggle({
-    Title = "Aimbot",
+    Title = "bad aim assist",
     Default = false
     },
     function(val)
@@ -825,7 +825,7 @@ CombatSilentaimSection:Toggle({
 )
 
 CombatSilentaimSection:Toggle({
-    Title = "Silent Aim",
+    Title = "aim assist (real)",
     Default = false
     },
     function(val)
@@ -834,7 +834,7 @@ CombatSilentaimSection:Toggle({
 )
 
 CombatSilentaimSection:Slider({
-    Title = "Hit Chance",
+    Title = "aim assist amount",
     Description = "",
     Default = 100,
     Min = 0,
@@ -846,7 +846,7 @@ CombatSilentaimSection:Slider({
 )
 
 CombatSilentaimSection:Toggle({
-    Title = "Wallbang",
+    Title = "wall?",
     Default = false
     },
     function(val)
@@ -859,7 +859,7 @@ CombatSilentaimSection:Toggle({
 )
 
 CombatSilentaimSection:Toggle({
-    Title = "No Spread",
+    Title = "walk + shoot",
     Default = false
     },
     function(val)
@@ -868,7 +868,7 @@ CombatSilentaimSection:Toggle({
 )
 
 CombatSilentaimSection:Toggle({
-    Title = "No Recoil",
+    Title = "get good",
     Default = false
     },
     function(val)
@@ -897,7 +897,7 @@ CombatSilentaimSection:Toggle({
 )
 
 CombatSilentaimSection:Toggle({
-    Title = "No Gravity",
+    Title = "arrow no gay",
     Default = false
     },
     function(val)
