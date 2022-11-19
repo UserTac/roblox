@@ -834,7 +834,7 @@ CombatSilentaimSection:Toggle({
 )
 
 CombatSilentaimSection:Slider({
-    Title = "aim assist amount",
+    Title = "amount (%)",
     Description = "",
     Default = 100,
     Min = 0,
@@ -914,7 +914,7 @@ CombatSilentaimSection:Toggle({
 )
 
 CombatSilentaimSection:Toggle({
-    Title = "Instant Charge (broken)",
+    Title = "work? no.",
     Default = false
     },
     function(val)
@@ -923,7 +923,7 @@ CombatSilentaimSection:Toggle({
 )
 
 CombatSilentaimSection:Toggle({
-    Title = "Auto Shoot (broken)",
+    Title = "work? no.",
     Default = false
     },
     function(val)
